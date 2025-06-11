@@ -1,0 +1,24 @@
+1. For each IP address, check to see how many requests came in after the first request in a 10 sec window.
+2. write a script to determine the number of request coming from each end user agent type
+3. write a script to count the number of times each endpoint was accessed.
+
+
+sol
+1. Approach:
+Parse logs by timestamp and IP.
+
+For each IP, find the first timestamp.
+
+Count how many additional requests occurred within the 10 seconds after that timestamp.
+
+2. Determine the number of requests coming from each end user agent type
+✅ Approach:
+Extract user agent string from each log line.
+
+Count frequency of each user agent.
+
+3. Count the number of times each endpoint was accessed
+✅ Approach:
+Extract the endpoint from the request portion of the log.
+
+Tally how many times each endpoint appears.

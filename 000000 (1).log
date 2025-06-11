@@ -1,0 +1,4 @@
+2025-06-03T10:50:53.715Z Server running at http://localhost:8080/
+2025-06-03T10:54:13.285Z Server running at http://localhost:8080/
+2025-06-03T10:54:19.069Z ::ffff:197.159.135.110 - - [03/Jun/2025:10:54:19 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+2025-06-03T10:54:19.366Z ::ffff:197.159.135.110 - - [03/Jun/2025:10:54:19 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://54.247.5.239:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
